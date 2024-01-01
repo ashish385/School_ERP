@@ -1,0 +1,70 @@
+
+
+/* body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+} */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #660909; */
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+    /* Text color */
+    /* background-color: #abbbcc; */
+    /* Background color */
+    border-radius: 50%;
+    /* Border radius for rounded buttons */
+    width: 45px;
+    /* Button width */
+    height: 45px;
+    /* Button height */
+    margin-top: -20px;
+    /* Adjust vertical positioning */
+    font-size: 40px;
+    /* Font size */
+    line-height: 10px;
+    /* Line height for vertical centering */
+    /* opacity: 1; */
+    /* Opacity */
+
+}
+
+.ourFacility{
+    background-image: url("../assets//homeImages/our-facility.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials-bg{
+    background-image: url('../assets//homeImages//testimonial-bg.jpg');
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
