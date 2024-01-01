@@ -7,12 +7,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { testimonials } from "../../../Data/Home";
-import { FaQuoteRight } from "react-icons/fa";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import {
-  Button,
   Card,
   CardBody,
   CardFooter,
