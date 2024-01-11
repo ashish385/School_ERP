@@ -42,7 +42,7 @@ export const NavLinks = [
       },
       {
         subtitle: "academic calender",
-        path: "/academic-calender",
+        path: "/academic-calendar",
       },
     ],
   },
@@ -51,10 +51,10 @@ export const NavLinks = [
     path: "/information",
     child: true,
     subNav: [
-      {
-        subtitle: "admin staff",
-        path: "/admin-staff",
-      },
+      // {
+      //   subtitle: "admin staff",
+      //   path: "/admin-staff",
+      // },
       {
         subtitle: "teaching staff",
         path: "/teaching-staff",

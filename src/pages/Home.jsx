@@ -1,7 +1,7 @@
 import React from "react";
 import HomeSlide from "../components/Miscelleneous/home/HomeSlide";
 import HomeAboutUs from "../components/Miscelleneous/home/HomeAboutUs";
-import Testimonials from "../components/Miscelleneous/home/Testimonials";
+import Testimonials from "../components/common/Testimonials";
 import Footer from "../components/common/Footer";
 
 const Home = () => {
@@ -20,8 +20,8 @@ const Home = () => {
           <Testimonials />
         </div>
         <div className="h-[100px]  md:hidden"></div>
-          </div>
-          <Footer />
+      </div>
+      <Footer />
 
       {/* <div className="h-[200px] bg-white"> </div> */}
     </>

@@ -1,10 +1,10 @@
 import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 import IconBtn from "../../common/IconBtn";
-import '../../../style/homeStyle.css';
-import Building from '../../../assets/homeImages/building.png'
-import Learning from '../../../assets/homeImages/learning.png'
-import Security from '../../../assets/homeImages/security.png'
+import "../../../style/homeStyle.css";
+import Building from "../../../assets/homeImages/building.png";
+import Learning from "../../../assets/homeImages/learning.png";
+import Security from "../../../assets/homeImages/security.png";
 
 const HomeAboutUs = () => {
   return (

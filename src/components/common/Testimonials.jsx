@@ -1,12 +1,12 @@
 import React from "react";
-import "../../../style/homeStyle.css";
+import "../../style/homeStyle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import { testimonials } from "../../../Data/Home";
+import { testimonials } from "../../Data/data";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
@@ -43,8 +43,8 @@ const Testimonials = () => {
                   overflow="hidden"
                   variant="outline"
                   bg="rgba(7, 41, 77, 0.1)"
-                          border={"#07294d"}
-                          textColor={"#fff"}
+                  border={"#07294d"}
+                  textColor={"#fff"}
                   className="flex justify-center items-center bg-transparent py-3 "
                 >
                   <Image

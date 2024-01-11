@@ -20,7 +20,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import React from "react";
-import { NavLinks, LoginNavLink } from "../../Data/HeaderData";
+import { NavLinks, LoginNavLink } from "../../../Data/HeaderData";
 import { Link } from "react-router-dom";
 import { RiAlignRight } from "react-icons/ri";
 import { BsChevronDown } from "react-icons/bs";
@@ -42,12 +42,12 @@ const Navbar = () => {
         </Box>
         <Box className=" items-center gap-3 text-sm md:text-base text-darkblue-700 font-inter hidden md:flex">
           {NavLinks.map((navitem, index) => (
-            <div>
+            <div key={index}>
               {!navitem.child ? (
                 <div>
                   <Link
                     key={index}
-                    path={navitem.path}
+                    to={navitem.path}
                     className="hover:text-pink-500 "
                   >
                     {navitem.title}
@@ -62,8 +62,13 @@ const Navbar = () => {
                     <div className="absolute left-[50%] top-0 -z-10 h-6 w-6 translate-x-[20%]  translate-y-[-40%] rotate-45 select-none rounded bg-darkblue-700"></div>
                     {navitem.subNav.map((item, index) => (
                       <div key={index}>
-                        <div className="text-white capitalize rounded-md hover:bg-darkblue-500 hover:scale-105 transition-all duration-300 ease-out px-3 py-1 border-b">
-                          <Link to={item.path}>{item.subtitle}</Link>
+                        <div className=" text-richblack-100  hover:text-white capitalize border-b    px-3 py-1 ">
+                          <Link
+                            to={item.path}
+                            className="w-full  hover:ml-2  transition-all duration-500 ease-in-out"
+                          >
+                            {item.subtitle}
+                          </Link>
                         </div>
                       </div>
                     ))}

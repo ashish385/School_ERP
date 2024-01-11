@@ -13,3 +13,74 @@
   margin-top: 12px;
   font-size: 28px;
 }
+
+.bg-style{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner{
+  background-image: url("./assets/homeImages/gallery-banner.jpg");
+}
+
+.button-bg{
+  --tw-bg-opacity: 1;
+    background-color: rgb(255 198 0 / var(--tw-bg-opacity));
+  color: black;
+}
+.button-bg:hover{
+  --tw-bg-opacity: 1;
+    background-color: rgb(7 41 77 / var(--tw-bg-opacity));
+    color: white;
+}
+
+.aboutUs_banner{
+  background-image: url("./assets/aboutUs_banner.png") ;
+}
+
+/* date picker */
+.react-datepicker-wrapper{
+  width: 100%;
+}
+
+/* Basic styling for the input */
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for when the input is focused */
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  /* Change the color based on your preference */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  /* Add a subtle box shadow */
+}
+
+/* Styling for disabled state */
+input:disabled {
+  background-color: #f8f8f8;
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* Placeholder text color */
+::placeholder {
+  color: #999;
+}
+
+/* Style for valid input */
+input:valid {
+  border-color: #28a745;
+  /* Change the color based on your preference */
+}
+
+/* Style for invalid input */
+input:invalid {
+  border-color: #dc3545;
+  /* Change the color based on your preference */
+}

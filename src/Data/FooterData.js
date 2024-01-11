@@ -69,3 +69,19 @@ export const contactUs = [
     icon: <IoMdMail className="text-yellow-50" />,
   },
 ];
+export const contact_Us = [
+  {
+    title: "D-218 Old Minal, J.K. Road Bhopal Madhya Pradesh, INDIA. ",
+    icon: <IoHome className="text-darkblue-700 group-hover:text-white text-2xl" />,
+  },
+  {
+    title: "91-9893070156 ",
+    icon: (
+      <BsFillTelephoneFill className="text-darkblue-700 group-hover:text-white" />
+    ),
+  },
+  {
+    title: "admin@schoolerpindia.co.in",
+    icon: <IoMdMail className="text-darkblue-700 group-hover:text-white" />,
+  },
+];

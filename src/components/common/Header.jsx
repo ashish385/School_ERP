@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Topbar from "../Header/Topbar";
-import Navbar from '../Header/Navbar';
+import Topbar from "../common/Header/Topbar";
+import Navbar from "../common/Header/Navbar";
 // import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 
 const Header = () => {
